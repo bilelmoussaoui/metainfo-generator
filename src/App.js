@@ -12,7 +12,7 @@ const App = () => {
         <Navbar />
         <div style={{ marginTop: '40px' }}>
           <Switch>
-            <Route exact path='/' component={HomePage} />
+            <Route path='/' component={HomePage} />
             <Route path='/new' component={CreateProjectPage} />
           </Switch>
         </div>
