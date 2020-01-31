@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { ProjectType } from './../../consts'
-import CreateDesktopApp from './../projects/DesktopApp'
-import MetaInfoTextArea from './../projects/MetaInfo'
+import MetaForm from './../projects/Form'
+import MetaCode from './../projects/Code'
 
 const CreateProject = props => {
   const projectType = props.match.params.project_type
@@ -27,14 +27,14 @@ const CreateProject = props => {
   return (
       <div className='row'>
         <div className='col s6'>
-          <CreateDesktopApp
+          <MetaForm
             {...props}
             project={project}
             onChange={onChange}
           />
         </div>
         <div className='col s6'>
-          <MetaInfoTextArea project={project} />
+          <MetaCode project={project} />
         </div>
       </div>
   )

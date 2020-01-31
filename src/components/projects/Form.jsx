@@ -1,6 +1,7 @@
 import React from 'react'
 
-const DesktopApp = props => {
+
+const MetaForm = props => {
   const { onChange } = props
   return (
     <div className='row'>
@@ -72,4 +73,4 @@ const DesktopApp = props => {
   )
 }
 
-export default DesktopApp
+export default MetaForm
