@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/metainfo-generator/static/css/main.79e9bd63.chunk.css",
+    "main.js": "/metainfo-generator/static/js/main.bc718de9.chunk.js",
+    "main.js.map": "/metainfo-generator/static/js/main.bc718de9.chunk.js.map",
+    "runtime-main.js": "/metainfo-generator/static/js/runtime-main.bf03447b.js",
+    "runtime-main.js.map": "/metainfo-generator/static/js/runtime-main.bf03447b.js.map",
+    "static/js/2.2a2700eb.chunk.js": "/metainfo-generator/static/js/2.2a2700eb.chunk.js",
+    "static/js/2.2a2700eb.chunk.js.map": "/metainfo-generator/static/js/2.2a2700eb.chunk.js.map",
+    "index.html": "/metainfo-generator/index.html",
+    "precache-manifest.7c809ea17f14743d1db143d35b6ae8a1.js": "/metainfo-generator/precache-manifest.7c809ea17f14743d1db143d35b6ae8a1.js",
+    "service-worker.js": "/metainfo-generator/service-worker.js",
+    "static/css/main.79e9bd63.chunk.css.map": "/metainfo-generator/static/css/main.79e9bd63.chunk.css.map",
+    "static/js/2.2a2700eb.chunk.js.LICENSE": "/metainfo-generator/static/js/2.2a2700eb.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bf03447b.js",
+    "static/js/2.2a2700eb.chunk.js",
+    "static/css/main.79e9bd63.chunk.css",
+    "static/js/main.bc718de9.chunk.js"
+  ]
+}
