@@ -23,14 +23,6 @@ export const projectToManifest = project => {
   idElem.innerHTML = id
   componentElem.appendChild(idElem)
 
-  let metadataLicenseElem = doc.createElement('metadata_license')
-  metadataLicenseElem.innerHTML = metadataLicense
-  componentElem.appendChild(metadataLicenseElem)
-
-  let projectLicenseElem = doc.createElement('project_license')
-  projectLicenseElem.innerHTML = projectLicense
-  componentElem.appendChild(projectLicenseElem)
-
   let launchableElem = doc.createElement('launchable')
   switch (projectType) {
     case ProjectType.DesktopApp:
@@ -50,6 +42,14 @@ export const projectToManifest = project => {
   let nameElem = doc.createElement('name')
   nameElem.innerHTML = name
   componentElem.appendChild(nameElem)
+
+  let metadataLicenseElem = doc.createElement('metadata_license')
+  metadataLicenseElem.innerHTML = metadataLicense
+  componentElem.appendChild(metadataLicenseElem)
+
+  let projectLicenseElem = doc.createElement('project_license')
+  projectLicenseElem.innerHTML = projectLicense
+  componentElem.appendChild(projectLicenseElem)
 
   let summaryElem = doc.createElement('summary')
   summaryElem.innerHTML = summary
