@@ -5,7 +5,7 @@ import MetaCode from './../projects/Code'
 
 const CreateProject = props => {
   const projectType = props.match.params.project_type
-  
+
   const [project, setProject] = useState({
     id: '',
     name: '',
@@ -13,7 +13,10 @@ const CreateProject = props => {
     description: '',
     developerName: '',
     updateContact: '',
-    projectType,
+    launchableURL: '',
+    metadataLicense: '',
+    projectLicense: '',
+    projectType
   })
 
   const onChange = e => {
@@ -25,18 +28,14 @@ const CreateProject = props => {
     })
   }
   return (
-      <div className='row'>
-        <div className='col s6'>
-          <MetaForm
-            {...props}
-            project={project}
-            onChange={onChange}
-          />
-        </div>
-        <div className='col s6'>
-          <MetaCode project={project} />
-        </div>
+    <div className='row'>
+      <div className='col s6'>
+        <MetaForm {...props} project={project} onChange={onChange} />
       </div>
+      <div className='col s6'>
+        <MetaCode project={project} />
+      </div>
+    </div>
   )
 }
 

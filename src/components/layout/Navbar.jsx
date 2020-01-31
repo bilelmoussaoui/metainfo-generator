@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 
 const Navbar = () => {
   return (
@@ -10,13 +10,17 @@ const Navbar = () => {
         </Link>
         <ul id='nav-mobile' className='right hide-on-med-and-down'>
           <li>
-            <a href='https://www.freedesktop.org/software/appstream/docs/'>Specifications</a>
+            <a href='https://www.freedesktop.org/software/appstream/docs/'>
+              Specifications
+            </a>
           </li>
           <li>
-            <a href='https://github.com/bilelmoussaoui/metainfo-generator'>Source Code</a>
+            <a href='https://github.com/bilelmoussaoui/metainfo-generator'>
+              Source Code
+            </a>
           </li>
           <li>
-            <a href='collapsible.html'>About</a>
+            <NavLink activeClassName='active' to='/about'>About</NavLink>
           </li>
         </ul>
       </div>
