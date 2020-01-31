@@ -14,7 +14,7 @@ const Navbar = () => {
             <a href='https://www.freedesktop.org/software/appstream/docs/'>Specifications</a>
           </li>
           <li>
-            <a href='badges.html'>Source Code</a>
+            <a href='https://github.com/bilelmoussaoui/metainfo-generator'>Source Code</a>
           </li>
           <li>
             <a href='collapsible.html'>About</a>
