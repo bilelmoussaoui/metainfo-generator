@@ -1,0 +1,17 @@
+export const ProjectType = {
+  DesktopApp: 'desktop-application',
+  CliApp: 'console-application',
+  WebApp: 'web-application',
+  Service: 'service',
+  Addon: 'addon',
+  IconTheme: 'icon-theme',
+  Codec: 'codec',
+  Driver: 'driver',
+  Runtime: 'runtime',
+  Localization: 'localization',
+  Font: 'font',
+  Firmware: 'firmware',
+  InputMethod: 'inputmethod',
+  OperatingSystem: 'operating-system',
+  Repository: 'repository',
+}
