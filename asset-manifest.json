@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/metainfo-generator/static/css/main.af96254f.chunk.css",
-    "main.js": "/metainfo-generator/static/js/main.2dfb4a8f.chunk.js",
-    "main.js.map": "/metainfo-generator/static/js/main.2dfb4a8f.chunk.js.map",
+    "main.css": "/metainfo-generator/static/css/main.3bff01c4.chunk.css",
+    "main.js": "/metainfo-generator/static/js/main.53c764d1.chunk.js",
+    "main.js.map": "/metainfo-generator/static/js/main.53c764d1.chunk.js.map",
     "runtime-main.js": "/metainfo-generator/static/js/runtime-main.bf03447b.js",
     "runtime-main.js.map": "/metainfo-generator/static/js/runtime-main.bf03447b.js.map",
-    "static/js/2.867b8e63.chunk.js": "/metainfo-generator/static/js/2.867b8e63.chunk.js",
-    "static/js/2.867b8e63.chunk.js.map": "/metainfo-generator/static/js/2.867b8e63.chunk.js.map",
+    "static/js/2.19dd3d82.chunk.js": "/metainfo-generator/static/js/2.19dd3d82.chunk.js",
+    "static/js/2.19dd3d82.chunk.js.map": "/metainfo-generator/static/js/2.19dd3d82.chunk.js.map",
     "index.html": "/metainfo-generator/index.html",
-    "precache-manifest.93f941bf9d0415dd123187f772503a99.js": "/metainfo-generator/precache-manifest.93f941bf9d0415dd123187f772503a99.js",
+    "precache-manifest.68a27ca908d103d187c8a01263755197.js": "/metainfo-generator/precache-manifest.68a27ca908d103d187c8a01263755197.js",
     "service-worker.js": "/metainfo-generator/service-worker.js",
-    "static/css/main.af96254f.chunk.css.map": "/metainfo-generator/static/css/main.af96254f.chunk.css.map",
-    "static/js/2.867b8e63.chunk.js.LICENSE": "/metainfo-generator/static/js/2.867b8e63.chunk.js.LICENSE",
+    "static/css/main.3bff01c4.chunk.css.map": "/metainfo-generator/static/css/main.3bff01c4.chunk.css.map",
+    "static/js/2.19dd3d82.chunk.js.LICENSE": "/metainfo-generator/static/js/2.19dd3d82.chunk.js.LICENSE",
     "static/media/elementary-os-logo.svg": "/metainfo-generator/static/media/elementary-os-logo.8cf23518.svg",
     "static/media/flathub-logo.svg": "/metainfo-generator/static/media/flathub-logo.e0e3d65e.svg",
     "static/media/gnome-software-logo.svg": "/metainfo-generator/static/media/gnome-software-logo.f74f3755.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.bf03447b.js",
-    "static/js/2.867b8e63.chunk.js",
-    "static/css/main.af96254f.chunk.css",
-    "static/js/main.2dfb4a8f.chunk.js"
+    "static/js/2.19dd3d82.chunk.js",
+    "static/css/main.3bff01c4.chunk.css",
+    "static/js/main.53c764d1.chunk.js"
   ]
 }
