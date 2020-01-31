@@ -36,3 +36,14 @@ label {
 .input-field textarea:focus + label{
   color: #1a237e !important;
 }
+
+
+.stores-list .card img {
+  margin: 0 auto;
+  display: block;
+}
+.stores-list h3.card-title a {
+  color: #1a237e;
+  text-align: center;
+  display: block;
+}

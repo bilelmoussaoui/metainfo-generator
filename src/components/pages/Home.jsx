@@ -3,6 +3,9 @@ import React from 'react'
 import ProjectCard from './../ProjectCard'
 import { ProjectType } from './../../consts'
 import Highlight from 'react-highlight.js'
+import FlathubLogo from './../../assets/flathub-logo.svg'
+import GNOMESoftwareLogo from './../../assets/gnome-software-logo.svg'
+import elementaryLogo from './../../assets/elementary-os-logo.svg'
 
 const content = `<?xml version="1.0" encoding="UTF-8"?>
 <!-- Bilal Elmoussaoui 2019 <bilal.elmoussaoui@gnome.org> -->
@@ -73,6 +76,62 @@ const Home = () => {
       </p>
       A metainfo is usually installed under
       <Highlight language='bash'>$prefix/$datadir/metainfo</Highlight>
+      <h3
+        style={{ fontWeight: '800', marginTop: '80px', marginBottom: '40px' }}
+        className='center-align'
+      >
+        Which frontends support Metainfo files?
+      </h3>
+      <div className='row stores-list'>
+        <div className='col s12 m4'>
+          <div className='card small'>
+            <div>
+              <img
+                src={FlathubLogo}
+                width='256px'
+                height='256px'
+                alt='Flathub'
+              />
+              <h3 className='card-title'>
+                <a href='https://flathub.org'>Flathub</a>
+              </h3>
+            </div>
+            <div className='card-content'></div>
+          </div>
+        </div>
+        <div className='col s12 m4'>
+          <div className='card small'>
+            <div>
+              <img
+                src={GNOMESoftwareLogo}
+                width='256px'
+                height='256px'
+                alt='GNOME Software'
+              />
+              <h3 className='card-title'>
+                <a href='https://wiki.gnome.org/Design/Apps/Software'>
+                  GNOME Software
+                </a>
+              </h3>
+            </div>
+            <div className='card-content'></div>
+          </div>
+        </div>
+        <div className='col s12 m4'>
+          <div className='card small'>
+            <div>
+              <img
+                src={elementaryLogo}
+                width='256px'
+                height='256px'
+                alt='elementary OS'
+              />
+              <h3 className='card-title'><a href='http://appcenter.elementary.io/'>elementary AppCenter</a></h3>
+            </div>
+            <div className='card-content'></div>
+          </div>
+        </div>
+      </div>
       <h3
         style={{ fontWeight: '800', marginTop: '80px', marginBottom: '40px' }}
         className='center-align'
