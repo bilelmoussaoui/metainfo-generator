@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import { ProjectType } from './../../consts'
 import MetaForm from './../projects/Form'
 import MetaCode from './../projects/Code'
 
@@ -29,10 +28,10 @@ const CreateProject = props => {
   }
   return (
     <div className='row'>
-      <div className='col s6'>
+      <div className='col s12 m12 l6'>
         <MetaForm {...props} project={project} onChange={onChange} />
       </div>
-      <div className='col s6'>
+      <div className='col s12 m12 l6'>
         <MetaCode project={project} />
       </div>
     </div>
