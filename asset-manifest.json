@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/metainfo-generator/static/css/main.79e9bd63.chunk.css",
-    "main.js": "/metainfo-generator/static/js/main.3a4c982c.chunk.js",
-    "main.js.map": "/metainfo-generator/static/js/main.3a4c982c.chunk.js.map",
+    "main.js": "/metainfo-generator/static/js/main.6f58a824.chunk.js",
+    "main.js.map": "/metainfo-generator/static/js/main.6f58a824.chunk.js.map",
     "runtime-main.js": "/metainfo-generator/static/js/runtime-main.bf03447b.js",
     "runtime-main.js.map": "/metainfo-generator/static/js/runtime-main.bf03447b.js.map",
     "static/js/2.15bb4890.chunk.js": "/metainfo-generator/static/js/2.15bb4890.chunk.js",
     "static/js/2.15bb4890.chunk.js.map": "/metainfo-generator/static/js/2.15bb4890.chunk.js.map",
     "index.html": "/metainfo-generator/index.html",
-    "precache-manifest.0dbbc3fa1b09a8f7143022c9dfdcdd17.js": "/metainfo-generator/precache-manifest.0dbbc3fa1b09a8f7143022c9dfdcdd17.js",
+    "precache-manifest.7767e30ffdace89e163de6ad5013bb50.js": "/metainfo-generator/precache-manifest.7767e30ffdace89e163de6ad5013bb50.js",
     "service-worker.js": "/metainfo-generator/service-worker.js",
     "static/css/main.79e9bd63.chunk.css.map": "/metainfo-generator/static/css/main.79e9bd63.chunk.css.map",
     "static/js/2.15bb4890.chunk.js.LICENSE": "/metainfo-generator/static/js/2.15bb4890.chunk.js.LICENSE"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.bf03447b.js",
     "static/js/2.15bb4890.chunk.js",
     "static/css/main.79e9bd63.chunk.css",
-    "static/js/main.3a4c982c.chunk.js"
+    "static/js/main.6f58a824.chunk.js"
   ]
 }
