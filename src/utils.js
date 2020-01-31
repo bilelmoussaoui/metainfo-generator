@@ -77,5 +77,5 @@ export const projectToManifest = project => {
 
   let manifestXML = new XMLSerializer().serializeToString(doc.documentElement)
   manifestXML = `<?xml version="1.0" encoding="UTF-8"?>${manifestXML}`
-  return format(manifestXML)
+  return format(manifestXML, { collapseContent: true })
 }
