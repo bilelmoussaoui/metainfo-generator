@@ -1,17 +1,17 @@
-import React, { Component } from 'react'
+import React from 'react'
 import Highlight from 'react-highlight.js'
 const MetaInfo = props => {
-  const { project, type } = props
   const {
     id,
     name,
     summary,
     description,
     developerName,
-    updateContact
-  } = project
+    updateContact,
+    projectType
+  } = props.project
   const content = `​​<?xml version="1.0" encoding="UTF-8"?>
-<component type='${type}'>
+<component type='${projectType}'>
     <id>${id}</id>
     <launchable type="desktop-id">${id}.desktop</launchable>
     <name>${name}</name>

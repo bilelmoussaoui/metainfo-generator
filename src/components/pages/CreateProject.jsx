@@ -1,10 +1,11 @@
 import React, { useState } from 'react'
-import { HashRouter, Switch, Route } from 'react-router-dom'
 import { ProjectType } from './../../consts'
 import CreateDesktopApp from './../projects/DesktopApp'
 import MetaInfoTextArea from './../projects/MetaInfo'
 
 const CreateProject = props => {
+  const projectType = props.match.params.project_type
+  
   const [project, setProject] = useState({
     id: '',
     name: '',
@@ -12,6 +13,7 @@ const CreateProject = props => {
     description: '',
     developerName: '',
     updateContact: '',
+    projectType,
   })
 
   const onChange = e => {
@@ -22,29 +24,19 @@ const CreateProject = props => {
       [name]: val
     })
   }
-
   return (
-    <HashRouter>
       <div className='row'>
         <div className='col s6'>
-          <Switch>
-            <Route
-              path={`/new/${ProjectType.DesktopApp}`}
-              render={props => (
-                <CreateDesktopApp
-                  {...props}
-                  project={project}
-                  onChange={onChange}
-                />
-              )}
-            />
-          </Switch>
+          <CreateDesktopApp
+            {...props}
+            project={project}
+            onChange={onChange}
+          />
         </div>
         <div className='col s6'>
-          <MetaInfoTextArea type={ProjectType.DesktopApp} project={project} />
+          <MetaInfoTextArea project={project} />
         </div>
       </div>
-    </HashRouter>
   )
 }
 

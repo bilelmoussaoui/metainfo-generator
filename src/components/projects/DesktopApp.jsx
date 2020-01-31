@@ -1,7 +1,7 @@
-import React, { useState } from 'react'
+import React from 'react'
 
 const DesktopApp = props => {
-  const { onChange, project } = props
+  const { onChange } = props
   return (
     <div className='row'>
       <form className='col s12'>

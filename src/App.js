@@ -7,13 +7,13 @@ import CreateProjectPage from './components/pages/CreateProject'
 
 const App = () => {
   return (
-    <HashRouter>
+    <HashRouter basename='/'>
       <div className='App'>
         <Navbar />
         <div style={{ marginTop: '40px' }}>
           <Switch>
-            <Route path='/' component={HomePage} />
-            <Route path='/new' component={CreateProjectPage} />
+            <Route exact path='/' component={HomePage} />
+            <Route path='/new/:project_type' component={CreateProjectPage} />
           </Switch>
         </div>
       </div>
