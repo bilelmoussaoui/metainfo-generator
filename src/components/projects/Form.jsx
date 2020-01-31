@@ -9,23 +9,23 @@ const MetaForm = props => {
     <div className='row'>
       <form className='col s12'>
         <div className='row'>
-          <div className='input-field col s6'>
+          <div className='col s6'>
+            <label htmlFor='id'>ID</label>
             <input
               placeholder='com.website.myapp'
               type='text'
               name='id'
               onChange={onChange}
             />
-            <label htmlFor='id'>ID</label>
           </div>
-          <div className='input-field col s6'>
+          <div className='col s6'>
+            <label htmlFor='name'>Name</label>
             <input
               placeholder='My App'
               name='name'
               type='text'
               onChange={onChange}
             />
-            <label htmlFor='name'>Name</label>
           </div>
         </div>
 
@@ -63,58 +63,58 @@ const MetaForm = props => {
 
         {projectType === ProjectType.WebApp && (
           <div className='row'>
-            <div className='input-field col s12'>
+            <div className='col s12'>
+              <label htmlFor='launchableURL'>Web Application URL</label>
               <input
                 placeholder='https://riot.com/app'
                 type='text'
                 name='launchableURL'
                 onChange={onChange}
               />
-              <label htmlFor='launchableURL'>Web Application URL</label>
             </div>
           </div>
         )}
 
         <div className='row'>
-          <div className='input-field col s12'>
+          <div className='col s12'>
+          <label htmlFor='summary'>Summary</label>
             <textarea
               name='summary'
               className='materialize-textarea'
               onChange={onChange}
             />
-            <label htmlFor='summary'>Summary</label>
           </div>
         </div>
 
         <div className='row'>
-          <div className='input-field col s12'>
+          <div className='col s12'>
+            <label htmlFor='description'>Description</label>
             <textarea
               name='description'
               className='materialize-textarea'
               onChange={onChange}
             />
-            <label htmlFor='description'>Description</label>
           </div>
         </div>
 
         <div className='row'>
-          <div className='input-field col s6'>
+          <div className='col s6'>
+            <label htmlFor='developerName'>Developer Name</label>
             <input
               placeholder='The name of the developer(s)'
               type='text'
               name='developerName'
               onChange={onChange}
             />
-            <label htmlFor='developerName'>Developer Name</label>
           </div>
-          <div className='input-field col s6'>
+          <div className='col s6'>
+            <label htmlFor='updateContact'>Update Contact</label>
             <input
               placeholder='update@email.me'
               name='updateContact'
               type='email'
               onChange={onChange}
             />
-            <label htmlFor='updateContact'>Update Contact</label>
           </div>
         </div>
       </form>
