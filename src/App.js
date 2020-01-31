@@ -1,5 +1,5 @@
 import React from 'react'
-import { BrowserRouter, Route, Switch } from 'react-router-dom'
+import { HashRouter, Route, Switch } from 'react-router-dom'
 
 import Navbar from './components/layout/Navbar'
 import HomePage from './components/pages/Home'
@@ -7,7 +7,7 @@ import CreateProjectPage from './components/pages/CreateProject'
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <div className='App'>
         <Navbar />
         <div style={{ marginTop: '40px' }}>
@@ -17,7 +17,7 @@ const App = () => {
           </Switch>
         </div>
       </div>
-    </BrowserRouter>
+    </HashRouter>
   )
 }
 

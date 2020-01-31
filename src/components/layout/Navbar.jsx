@@ -6,9 +6,9 @@ const Navbar = () => {
   return (
     <nav>
       <div className='nav-wrapper indigo darken-4'>
-        <Link to='/' className='brand-logo'>
+        <a href='https://bilelmoussaoui.github.io/metainfo-generator/' className='brand-logo'>
           Metainfo Generator
-        </Link>
+        </a>
         <ul id='nav-mobile' className='right hide-on-med-and-down'>
           <li>
             <a href='https://www.freedesktop.org/software/appstream/docs/'>Specifications</a>

@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { BrowserRouter, Switch, Route } from 'react-router-dom'
+import { HashRouter, Switch, Route } from 'react-router-dom'
 import { ProjectType } from './../../consts'
 import CreateDesktopApp from './../projects/DesktopApp'
 import MetaInfoTextArea from './../projects/MetaInfo'
@@ -24,7 +24,7 @@ const CreateProject = props => {
   }
 
   return (
-    <BrowserRouter>
+    <HashRouter>
       <div className='row'>
         <div className='col s6'>
           <Switch>
@@ -44,7 +44,7 @@ const CreateProject = props => {
           <MetaInfoTextArea type={ProjectType.DesktopApp} project={project} />
         </div>
       </div>
-    </BrowserRouter>
+    </HashRouter>
   )
 }
 
